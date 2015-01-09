@@ -1,0 +1,301 @@
+.clearfix:after {
+  content: "."; display: block;height: 0;clear: both;font-size: 1px;line-height: 1px;visibility: hidden;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font: normal 13px/18px Arial, Helvetica, sans-serif;
+  
+}
+pre {
+white-space: normal;
+}
+a img { border: none; }
+.clearer {
+  clear: both;
+  font-size: 1px;
+  line-height: 1px;
+  height: 1px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3 {
+  padding: 20px 0 20px;
+  margin: 0;
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+  font-family: "Times New Roman", serif;
+  
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+
+
+#wrap {
+  width: 1000px;
+  padding: 125px 0 60px;
+  text-align: left;
+  margin: 0 auto;
+  position: relative;
+}
+
+#leftside {
+  width: 410px;
+  float: left;
+  padding-top: 35px;
+}
+
+/* header, langmenu, mainmenu */
+
+  
+  /* header */
+  
+
+    #header {
+      text-align: right;
+      font-size: 60px;
+      line-height: 70px;
+      font-family: "Times New Roman", serif;
+      padding-right:5px;
+    }
+    
+    
+    #langmenu {
+      margin: 0;
+      text-align: right;
+      padding: 0 5px 15px;
+      list-style-type: none;
+    }
+    
+    #langmenu li {
+      display: inline;
+      
+    }
+    
+    #langmenu li a, #mainmenu li a {
+      text-decoration: none;
+      font-size: 20px;
+      line-height: 25px;
+      font-family: "Times New Roman", serif;
+      white-space: nowrap;
+    }
+    
+    #langmenu li a:hover, #mainmenu li a:hover {
+      text-decoration: underline;
+    }
+  
+
+    #mainmenu {
+      margin: 0;
+      padding: 70px 0 40px 0;
+      list-style-type: none;
+      width: 410px;
+      overflow: hidden;
+    }
+    
+    
+    #mainmenu li {
+      display: block;
+      padding: 5px 0 0 0;
+      text-align: right;
+    }
+	
+	#mainmenu ul.submenu {
+  padding-right:15px;
+  margin:5px 0;
+  list-style-type: none
+	}
+	#mainmenu ul.submenu a {
+  font-size:16px;
+  line-height:20px;
+	}
+  
+/* container */
+
+  #container {
+    float: left;
+    width: 414px;
+    margin: 0 -3px 0 30px;
+  }
+  
+/* content */
+
+  #content {
+    border: 5px solid white;
+    padding: 25px;
+    min-height: 450px;
+  }
+  
+  * html #content {
+    height: 450px;
+  }
+  
+  
+  /* blog */
+  
+    .blog {
+      padding-bottom: 10px;
+    }
+    
+    .blog h1 {
+      padding-bottom: 4px;
+    }
+    
+    .blog-info {
+      padding: 10px 28px;
+    }
+    
+    .comment {
+      padding-bottom: 20px;
+    }
+    
+    .comments h1 {
+      padding-top: 10px;
+      font-size: 20px;
+    }
+    
+    .comment-number {
+      float: left;
+      font-size: 30px;
+      line-height: 30px;
+      font-family: 'Times New Roman', serif;
+      width: 50px;
+    }
+    
+    .comment-content {
+      margin-left: 65px;
+    }
+    
+    .comment-form form {
+      margin: 0;
+      padding: 0;
+    }
+    
+    .comment-form table {
+      margin: 0;
+      padding: 0;
+      border: none;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    .comment-form table td {
+      vertical-align: top;
+      padding: 0 0 5px 0;
+      border: none;
+    }
+    
+    .textbox {
+      width: 260px;
+      font: normal 13px/18px Arial, Helvetica, sans-serif;
+      padding: 3px 3px;
+    }
+    
+    .submit {
+      border: none;
+      font: normal 13px/18px Arial, Helvetica, sans-serif;
+    }
+    
+  /* gallery */
+  
+    .gallery {
+      padding: 30px 20px 0;
+    }
+    
+    .gallery a {
+      text-decoration: none;
+      margin: 0px 0px;
+    }
+    
+    .gallery img {
+      border: none;
+      cursor: pointer;
+      padding: 3px;
+    }
+    
+    
+  
+/* footer */
+  
+  #footer {
+    position: relative;
+    padding: 10px 60px 0 25px;
+    font-size: 11px;
+    line-height: 16px;
+  }
+  
+/* edicy */
+
+  #edicy {
+
+
+    top: 10px;
+    right: 20px;
+  }
+  
+  #edicy a {
+    text-decoration: none;
+  }
+  
+  #edicy a:hover {
+    text-decoration: underline;
+  }
+
+
+/* forms */
+   .form_area {
+      margin: 20px 0;
+}
+.form_field {
+  margin: 0 0 5px;
+}
+.form_field label, .fci-form-field-label {
+  font-weight: bold;
+  display: block;
+}
+.form_error {
+  color: red;
+  font-weight: bold;
+  font-size: 12px;
+  border: 1px dotted red;
+  padding: 5px;
+}
+.form_field_error {
+  color: red;
+  font-size: 10px;
+  line-height: 14px;
+}
+.form_notice {
+  color: green;
+  border: 1px dotted green;
+  padding: 5px;
+}
+
+.form_field_size_large {
+width: 98%;
+}
+.form_field_size_medium {
+width: 50%;
+}
+.form_field_size_small {
+width: 25%;
+}
