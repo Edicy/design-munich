@@ -46,6 +46,10 @@ a:hover {
   hyphens: auto;
 }
 
+#content iframe {
+  max-width: 100%;
+}
+
 #header {
   color: #e2c46a;
 }
