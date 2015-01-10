@@ -10,7 +10,7 @@
 	
 	<div id="wrap"{% if site.search.enabled %} style="padding-top: 86px;"{% endif %}>
    {% if site.search.enabled %}<div id="search">
-<form action="">
+<form action="" class="edys-search">
 <div><input type="text" id="onpage_search"/></div>
 </form>
 </div>{% endif %}
@@ -27,7 +27,7 @@
    
    <div id="container">
      
-     <div id="content" class="clearfix">
+     <div id="content" class="clearfix" data-search-indexing-allowed="true">
        
        {% content %}
        <div class="clearer"></div>

@@ -31,10 +31,10 @@
        <div class="blog">
          <h1>{% editable article.title plain="true" %}</h1>
                 {{ article.created_at | format_date:"long" }} - <span class="highlight">{{ article.author.name }}</span><br /><br />
-            <div class="clearfix">
+            <div class="clearfix" data-search-indexing-allowed="true">
                {% editable article.excerpt %}
          </div>
-               <div style="padding-top: 10px;" class="clearfix">
+               <div style="padding-top: 10px;" class="clearfix" data-search-indexing-allowed="true">
                {% editable article.body %}
                <div class="clearer"></div>
                </div>
