@@ -1,91 +1,91 @@
 {
-  "assets": [
-    {
-      "filename": "bg.gif",
-      "file": "images/bg.gif",
-      "kind": "images",
-      "content_type": "image/gif"
-    },
-    {
-      "filename": "seperator.gif",
-      "file": "images/seperator.gif",
-      "kind": "images",
-      "content_type": "image/gif"
-    },
-    {
-      "filename": "layout.css",
-      "file": "stylesheets/layout.css",
-      "kind": "stylesheets",
-      "content_type": "text/css"
-    },
-    {
-      "filename": "style.css",
-      "file": "stylesheets/style.css",
-      "kind": "stylesheets",
-      "content_type": "text/css"
-    }
-  ],
+  "description": "Munich",
+  "name": "Munich",
   "preview_medium": "http://static.edicy.com/designs/previews/munich_medium.png",
+  "preview_small": "http://static.edicy.com/designs/previews/munich_small.jpg",
   "author": "Tajo Oja",
   "layouts": [
     {
-      "title": "Common page",
-      "file": "layouts/common_page.tpl",
-      "layout_name": "page_default",
+      "content_type": "page",
       "component": false,
-      "content_type": "page"
-    },
-    {
-      "title": "Blog & News",
-      "file": "layouts/blog___news.tpl",
-      "layout_name": "blog_front",
-      "component": false,
-      "content_type": "blog"
-    },
-    {
-      "title": "Blog article",
-      "file": "layouts/blog_article.tpl",
-      "layout_name": "blog_article",
-      "component": false,
-      "content_type": "blog_article"
-    },
-    {
-      "title": "Langmenu",
-      "file": "components/langmenu.tpl",
-      "layout_name": "",
-      "component": true,
-      "content_type": "component"
-    },
-    {
-      "title": "Mainmenu",
-      "file": "components/mainmenu.tpl",
-      "layout_name": "",
-      "component": true,
-      "content_type": "component"
-    },
-    {
-      "title": "SiteHeader",
-      "file": "components/siteheader.tpl",
-      "layout_name": "",
-      "component": true,
-      "content_type": "component"
-    },
-    {
-      "title": "Front page",
       "file": "layouts/front_page.tpl",
       "layout_name": "page_front",
-      "component": false,
-      "content_type": "page"
+      "title": "Front page"
     },
     {
-      "title": "JS",
-      "file": "components/js.tpl",
-      "layout_name": "",
+      "content_type": "page",
+      "component": false,
+      "file": "layouts/common_page.tpl",
+      "layout_name": "page_default",
+      "title": "Common page"
+    },
+    {
+      "content_type": "blog",
+      "component": false,
+      "file": "layouts/blog___news.tpl",
+      "layout_name": "blog_front",
+      "title": "Blog & News"
+    },
+    {
+      "content_type": "blog_article",
+      "component": false,
+      "file": "layouts/blog_article.tpl",
+      "layout_name": "blog_article",
+      "title": "Blog article"
+    },
+    {
+      "content_type": "component",
       "component": true,
-      "content_type": "component"
+      "file": "components/js.tpl",
+      "layout_name": "js",
+      "title": "js"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/langmenu.tpl",
+      "layout_name": "langmenu",
+      "title": "langmenu"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/mainmenu.tpl",
+      "layout_name": "mainmenu",
+      "title": "mainmenu"
+    },
+    {
+      "content_type": "component",
+      "component": true,
+      "file": "components/siteheader.tpl",
+      "layout_name": "siteheader",
+      "title": "siteheader"
     }
   ],
-  "preview_small": "http://static.edicy.com/designs/previews/munich_small.jpg",
-  "name": "Munich",
-  "description": "Munich"
+  "assets": [
+    {
+      "content_type": "image/gif",
+      "file": "images/bg.gif",
+      "kind": "images",
+      "filename": "bg.gif"
+    },
+    {
+      "content_type": "image/gif",
+      "file": "images/seperator.gif",
+      "kind": "images",
+      "filename": "seperator.gif"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/layout.css",
+      "kind": "stylesheets",
+      "filename": "layout.css"
+    },
+    {
+      "content_type": "text/css",
+      "file": "stylesheets/style.css",
+      "kind": "stylesheets",
+      "filename": "style.css"
+    }
+  ]
 }
