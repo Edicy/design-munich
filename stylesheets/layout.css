@@ -299,3 +299,10 @@ width: 50%;
 .form_field_size_small {
 width: 25%;
 }
+
+/* Voog cms blog editor overrides */
+#wrap .edy-btn-removecomment {
+  position: relative;
+  top: 1px;
+  line-height: 0 !important;
+}
