@@ -1,5 +1,7 @@
 .clearfix:after {
-  content: "."; display: block;height: 0;clear: both;font-size: 1px;line-height: 1px;visibility: hidden;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 html, body {
@@ -109,7 +111,6 @@ h3 {
       padding: 70px 0 40px 0;
       list-style-type: none;
       width: 410px;
-      overflow: hidden;
     }
     
     

@@ -12,7 +12,7 @@
 	<div id="wrap"{% if site.search.enabled %} style="padding-top: 86px;"{% endif %}>
    {% if site.search.enabled %}<div id="search">
 <form action="" class="edys-search">
-<div><input type="text" id="onpage_search"/></div>
+<div><input type="text" id="onpage_search" placeholder="{{  "search" | lc }}"/></div>
 </form>
 </div>{% endif %}
    
