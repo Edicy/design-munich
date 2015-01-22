@@ -46,6 +46,14 @@ a:hover {
   hyphens: auto;
 }
 
+.content-hyphenate {
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
 #content iframe {
   max-width: 100%;
 }

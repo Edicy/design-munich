@@ -25,7 +25,7 @@
        {% include "Mainmenu" %}
    </div>
    
-   <div id="container">
+   <div id="container" class="content-hyphenate">
      
      <div id="content" class="clearfix" data-search-indexing-allowed="true">
        
@@ -33,7 +33,7 @@
        <div class="clearer"></div>
      </div> <!-- //content -->
      
-     <div id="footer" class="clearfix">
+     <div id="footer" class="clearfix content-hyphenate">
        
        
        {% content name="footer" xpage="true" %}

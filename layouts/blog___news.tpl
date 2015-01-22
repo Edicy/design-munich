@@ -16,9 +16,9 @@
 </form>
 </div>{% endif %}
    
-   <div id="leftside">
+   <div id="leftside" class="content-hyphenate">
        {% include "Langmenu" %}
-       <div id="header" class="clearfix">
+       <div id="header" class="clearfix content-hyphenate">
            {% editable site.header %}
        </div> <!-- //header -->
        {% include "Mainmenu" %}
@@ -28,7 +28,7 @@
    
    <div id="container">
      
-     <div id="content">
+     <div id="content" class="content-hyphenate">
        {% addbutton class="add-article" %}
        
               {% for article in articles %}
@@ -46,7 +46,7 @@
        
      </div> <!-- //content -->
      
-     <div id="footer" class="clearfix">
+     <div id="footer" class="clearfix content-hyphenate">
        
        {% content name="footer" xpage="true" %}
        <div id="edicy">{% loginblock %}{{ "footer_login_link" | lc }}{% endloginblock %}</div>

@@ -28,7 +28,7 @@
      
      <div id="content">
        
-       <div class="blog">
+       <div class="blog" class="content-hyphenate">
          <h1>{% editable article.title plain="true" %}</h1>
                 {{ article.created_at | format_date:"long" }} - <span class="highlight">{{ article.author.name }}</span><br /><br />
             <div class="clearfix" data-search-indexing-allowed="true">
@@ -107,7 +107,7 @@
        
      </div> <!-- //content -->
      
-     <div id="footer" class="clearfix">
+     <div id="footer" class="clearfix content-hyphenate">
        
        {% content name="footer" xpage="true" %}
        <div id="edicy">{% loginblock %}{{ "footer_login_link" | lc }}{% endloginblock %}</div>
